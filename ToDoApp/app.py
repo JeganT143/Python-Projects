@@ -1,3 +1,8 @@
 user_input_prompt = "Enter your task: "
-user_input = input(user_input_prompt)
-print(user_input)
+todos = []
+while True:
+    todo = input(user_input_prompt)
+    todos.append(todo)
+    print(todos)
+    
+    
